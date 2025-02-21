@@ -45,7 +45,11 @@
             }@else {
               <li class="nav-item"><a class="nav-link" (click)="goPreguntas()">Preguntas Frecuentes</a></li>
             }  
-            <li class="nav-item"><a class="nav-link">Terapias</a></li>
+            @if(checkRoute() == '/terapias'){
+              <li class="nav-item"><a class="nav-link" (click)="goTerapias()" style="color: white; text-decoration: underline;">Terapias</a></li>
+            }@else{
+              <li class="nav-item"><a class="nav-link" (click)="goTerapias()">Terapias</a></li>
+            }
             <li class="nav-item"><a class="nav-link">Mi Blog</a></li>
             <li class="nav-item"><a class="nav-link">Contacto</a></li>
           </ul>
