@@ -1,0 +1,70 @@
+.lista{
+    width: 30%;
+}
+
+.img{
+    background-image: url('../../../assets/salon-img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 35vh;
+}
+
+.imagen-content{
+    width: 15%;
+}
+
+.espacialista{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ampliaex{
+    padding-top: 5vh;
+    width: 43%;
+    color: #3d1646;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 32vh;
+    padding-bottom: 30px;
+}
+
+.separador{
+    text-align: center;
+    align-items: center;
+    background-color: #c18bdf;
+    display: flex;
+    height: 10vh;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+@media (min-width: 2000px) {
+    .lista{
+        width: 30%;
+        font-size: 150%;
+    }
+
+    .lista h1{
+        font-size: 200%;
+    }
+
+    .ampliaex{
+        font-size: 150%;
+    }
+
+    .ampliaex h1{
+        font-size: 200%;
+    }
+
+}
+
+@media (min-width: 1500px) {
+    .ampliaex{
+        margin-top: -5vh;
+        width: 32%;
+    }
+}

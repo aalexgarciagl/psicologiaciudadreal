@@ -60,6 +60,8 @@
 }
 
 .footer-small{
+    align-items: center;
+    height: 5vh;
     background-color: #252525;
     color: #7f7f7f;
     display: flex;
