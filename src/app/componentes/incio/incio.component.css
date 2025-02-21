@@ -10,6 +10,14 @@
     height: 35vh;
 }
 
+.imagenheader{
+    background-image: url('../../../assets/img-header.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 18.5vh;
+}
+
 .imagen-content{
     width: 15%;
 }
@@ -70,21 +78,30 @@
 }
 
 @media (max-width: 768px) {
-    .espacialista{
-        background-color: red;
-    }
+    
 
-    .espacialista h1{
-        background-color: blue;
-        width: 100px;
+    .lista{
+        margin: 5px;
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
     }
     .ampliaex{
-        background-color: green;
-        margin-right: 100px;
-        display: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 30px;
     }
 
     .imagen-content{
+        display: none;
+    }
+
+    .separador{
+        font-size: 85%;
+    }
+
+    .imagenheader{
         display: none;
     }
 }

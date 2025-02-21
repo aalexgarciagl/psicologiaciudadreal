@@ -98,4 +98,51 @@
         font-size: 70%;
     }
 
+    .navbar-nav a {
+        font-size: 70%;
+    }
+
+    /* Fondo del menú desplegable */
+    .navbar-collapse {
+        background-color: #c18bdf; /* Color de fondo del menú */
+        padding: 15px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    /* Ajuste de los enlaces dentro del menú */
+    .navbar-nav .nav-link {
+        color: white !important;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    /* Efecto al pasar el mouse sobre los enlaces */
+    .navbar-nav .nav-link:hover {
+        background-color: #a86ecf;
+        color: #ffffff;
+    }
+
+    /* Espaciado del navbar-toggler (botón hamburguesa) */
+    .navbar-toggler {
+        border: none;
+        background-color: white;
+        padding: 8px 12px;
+        border-radius: 5px;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    
+    
+
 }
