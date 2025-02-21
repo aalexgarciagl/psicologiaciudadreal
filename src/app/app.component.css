@@ -72,3 +72,30 @@
     color: #8e6494;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    .imagen-footer-ct{
+        display: none;
+    }
+
+    .contenedor-imagen{
+        width: 50%;
+    }
+
+    .navbar{
+        width: 20%;
+    }
+
+    .contacto{
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-small{
+        font-size: 55%;
+    }
+    .header-small{
+        font-size: 70%;
+    }
+
+}

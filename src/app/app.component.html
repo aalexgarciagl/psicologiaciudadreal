@@ -1,4 +1,3 @@
-
 <header>
   <div class="header-small">
     <div class="email">
@@ -14,18 +13,33 @@
       {{this.telFijo}}
     </div>
   </div>
+  
   <div class="header-big">
     <div class="contenedor-imagen">
       <div class="imagen"></div>
     </div>
-    <div class="navbar">
-      <a href="">Inicio</a>
-      <a href="">Tratamientos aplicados</a>
-      <a href="">Preguntas Frecuentes</a>
-      <a href="">Terapias</a>
-      <a href="">Mi Blog</a>
-      <a href="">Contacto</a>
-    </div>
+    
+    <!-- NAVBAR BOOTSTRAP 5 -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <!-- Botón hamburguesa -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Contenido de la barra de navegación -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Tratamientos aplicados</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Preguntas Frecuentes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Terapias</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Mi Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </div>
 </header>
 

@@ -68,3 +68,23 @@
         width: 32%;
     }
 }
+
+@media (max-width: 768px) {
+    .espacialista{
+        background-color: red;
+    }
+
+    .espacialista h1{
+        background-color: blue;
+        width: 100px;
+    }
+    .ampliaex{
+        background-color: green;
+        margin-right: 100px;
+        display: none;
+    }
+
+    .imagen-content{
+        display: none;
+    }
+}
