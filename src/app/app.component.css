@@ -53,6 +53,17 @@
     width: 60%;
 }
 
+header a{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.contacto a{
+    color: #c18bdf;
+    text-decoration: none;
+}
+
 .navbar a{
     text-decoration: none;
     color: #473c4e;

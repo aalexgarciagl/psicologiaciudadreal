@@ -12,7 +12,7 @@
 }
 
 .donde{
-    width: 23%;
+    width: 24%;
     text-align: center;
 }
 
@@ -46,6 +46,11 @@ iframe{
 .separador b {
     font-weight: lighter;
     color: #c18bdf;
+}
+
+.donde a {
+    color: #c18bdf;
+    text-decoration: none;
 }
 
 .body

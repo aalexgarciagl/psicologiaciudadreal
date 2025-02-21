@@ -37,6 +37,11 @@
     font-size: 4vh;
 }
 
+.separador a{
+    color: #c18bdf;
+    text-decoration: none;
+}
+
 
 h2{
     color: #3d1646;
