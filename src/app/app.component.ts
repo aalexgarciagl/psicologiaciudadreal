@@ -29,4 +29,12 @@ export class AppComponent implements OnInit {
   goInicio(){
     this.router.navigate(['/inicio'])
   }
+
+  goPreguntas(){
+    this.router.navigate(['/preguntas'])
+  }
+
+  checkRoute(){
+    return this.router.url; 
+  }
 }

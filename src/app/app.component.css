@@ -60,6 +60,8 @@
 }
 .navbar a:hover{
     cursor: pointer;
+    color: white;
+    text-decoration: underline;
 }
 
 .footer-small{
