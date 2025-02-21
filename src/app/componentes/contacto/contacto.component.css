@@ -20,3 +20,83 @@
     font-weight: lighter;
     color: #c18bdf;
 }
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.mapa
+{
+    width: 50%;
+    height: 50vh;    
+}
+
+.separador{
+    text-align: center;
+    background-color: #3d1646;
+    color: white;
+    height: 15vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+.separador b {
+    font-weight: lighter;
+    color: #c18bdf;
+}
+
+.body
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    
+    .body{
+        display: block;
+    }
+    .donde{
+        width: 100%;
+    }
+    .mapa{
+        width: 100%;
+    }
+    .separador{
+        text-align: center;
+        background-color: #3d1646;
+        color: white;
+        height: 15vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 110%;
+    }
+    
+}
+
+@media (min-width: 2000px) {
+    .donde{
+        width: 30%;
+        font-size: 120%;
+    }
+    .donde h1{
+        font-size: 250%;
+    }
+
+}
+
+@media (min-width: 1500px) {
+    .donde{
+        width: 30%;
+        font-size: 150%;
+    }
+    .donde h1{
+        font-size: 300%;
+    }
+}
