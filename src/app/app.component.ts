@@ -38,6 +38,10 @@ export class AppComponent implements OnInit {
     this.router.navigate(['/terapias'])
   }
 
+  goContacto(){
+    this.router.navigate(['/contacto'])
+  }
+
   checkRoute(){
     return this.router.url; 
   }

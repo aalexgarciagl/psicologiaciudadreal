@@ -1,0 +1,22 @@
+.title{
+    color: #3d1646;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+.title h1{
+    border-bottom: 3px solid #3d1646;
+    width: 90%;
+}
+
+.donde{
+    width: 23%;
+    text-align: center;
+}
+
+.donde b{
+    font-weight: lighter;
+    color: #c18bdf;
+}
