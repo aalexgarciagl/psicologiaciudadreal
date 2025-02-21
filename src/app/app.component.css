@@ -58,6 +58,9 @@
     color: #473c4e;
     font-size: 3vh;
 }
+.navbar a:hover{
+    cursor: pointer;
+}
 
 .footer-small{
     align-items: center;

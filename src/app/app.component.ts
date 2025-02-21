@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -17,5 +17,16 @@ export class AppComponent implements OnInit {
     this.email = "psicologiamjgcastro@gmail.com"
     this.telFijo = "926 232 743"
     this.telNormal = "656 91 31 16"
+  }
+
+  constructor(private router: Router){}
+
+
+  goTratamientos(){
+    this.router.navigate(['/tratamientos'])
+  }
+
+  goInicio(){
+    this.router.navigate(['/inicio'])
   }
 }

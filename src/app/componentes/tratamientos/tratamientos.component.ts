@@ -1,14 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-incio',
+  selector: 'app-tratamientos',
   imports: [],
-  templateUrl: './incio.component.html',
-  styleUrl: './incio.component.css'
+  templateUrl: './tratamientos.component.html',
+  styleUrl: './tratamientos.component.css'
 })
-export class IncioComponent implements OnInit {
-  title = "Psicología en Ciudad Real | Servicios de terapia y bienestar emocional"
+export class TratamientosComponent implements OnInit {
 
 
   ngOnInit(): void {
@@ -22,5 +20,4 @@ export class IncioComponent implements OnInit {
   telFijo: any
   telNormal: any
   email: any
-  
 }
