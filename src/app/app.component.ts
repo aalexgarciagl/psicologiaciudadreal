@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
+import { Offcanvas } from 'bootstrap';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ export class AppComponent implements OnInit {
   telFijo: any
   telNormal: any
   email: any
+  isMenuOpen:any
 
   ngOnInit(): void {
     this.email = "psicologiamjgcastro@gmail.com"
@@ -19,6 +21,7 @@ export class AppComponent implements OnInit {
     this.telNormal = "656 91 31 16"
   }
 
+  
   constructor(private router: Router){}
 
 

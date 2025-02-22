@@ -16,52 +16,90 @@
   
   <div class="header-big">
     <div class="contenedor-imagen">
-      <div class="imagen"></div>
+      <div class="imagen" (click)="goInicio()"></div>
+    </div>
+    <div class="navbar2">
+      <ul>
+        @if(checkRoute() == '/inicio'){
+          <li (click)="goInicio()" style="color: white; text-decoration: underline;">Inicio</li>
+        }@else{
+          <li (click)="goInicio()">Inicio</li>
+        }
+        @if(checkRoute() == '/tratamientos'){
+          <li (click)="goTratamientos()" style="color: white; text-decoration: underline;">Tratamientos aplicacdos</li>
+        }@else {
+          <li (click)="goTratamientos()">Tratamientos aplicacdos</li>
+        }
+
+        @if(checkRoute() == '/preguntas'){
+          <li (click)="goPreguntas()" style="color: white; text-decoration: underline;">Preguntas frecuentes</li>
+        }@else {<li (click)="goPreguntas()">Preguntas frecuentes</li>}
+        
+        @if(checkRoute() == '/terapias'){
+          <li (click)="goTerapias()" style="color: white; text-decoration: underline;">Terapias</li>
+        }@else {
+          <li (click)="goTerapias()">Terapias</li>
+        }
+        
+        @if(checkRoute() == '/contacto'){
+          <li (click)="goContacto()" style="color: white; text-decoration: underline;">Contacto</li>
+        }@else {
+          <li (click)="goContacto()">Contacto</li>
+        }
+        
+      </ul>
     </div>
     
     <!-- NAVBAR BOOTSTRAP 5 -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <!-- Botón hamburguesa -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <!-- Botón del menú -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <!-- Contenido de la barra de navegación -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            @if(checkRoute() == '/inicio'){
-              <li class="nav-item"><a class="nav-link" style="color: white; text-decoration: underline;" (click)="goInicio()">Inicio</a></li>
-            }@else {
-              <li class="nav-item"><a class="nav-link" (click)="goInicio()">Inicio</a></li>
-            }
-            @if(checkRoute() == '/tratamientos'){
-              <li class="nav-item"><a class="nav-link"(click)="goTratamientos()"style="color: white; text-decoration: underline;">Tratamientos aplicados</a></li>
-            }@else {
-              <li class="nav-item"><a class="nav-link"(click)="goTratamientos()">Tratamientos aplicados</a></li>
-            }
-            @if(checkRoute() == '/preguntas'){
-              <li class="nav-item"><a class="nav-link" (click)="goPreguntas()"style="color: white; text-decoration: underline;">Preguntas Frecuentes</a></li>
-            }@else {
-              <li class="nav-item"><a class="nav-link" (click)="goPreguntas()">Preguntas Frecuentes</a></li>
-            }  
-            @if(checkRoute() == '/terapias'){
-              <li class="nav-item"><a class="nav-link" (click)="goTerapias()" style="color: white; text-decoration: underline;">Terapias</a></li>
-            }@else{
-              <li class="nav-item"><a class="nav-link" (click)="goTerapias()">Terapias</a></li>
-            }     
-            @if(checkRoute() == '/contacto'){
-              <li class="nav-item"><a class="nav-link" (click)="goContacto()" style="color: white; text-decoration: underline;">Contacto</a></li>
-            }@else{
-              <li class="nav-item"><a class="nav-link" (click)="goContacto()">Contacto</a></li>
-            }        
-            
-          </ul>
+    
+        <!-- Menú lateral -->
+        <div class="offcanvas offcanvas-end" id="offcanvasNavbar">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Menú</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav">
+              @if(checkRoute() == '/inicio'){
+                <li class="nav-item"><a class="nav-link" style="color: white; text-decoration: underline;" (click)="goInicio()" data-bs-dismiss="offcanvas">Inicio</a></li>
+              }@else {
+                <li class="nav-item"><a class="nav-link" (click)="goInicio()" data-bs-dismiss="offcanvas">Inicio</a></li>
+              }
+              @if(checkRoute() == '/tratamientos'){
+                <li class="nav-item"><a class="nav-link"(click)="goTratamientos()" data-bs-dismiss="offcanvas" style="color: white; text-decoration: underline;">Tratamientos aplicados</a></li>
+              }@else {
+                <li class="nav-item"><a class="nav-link"(click)="goTratamientos()" data-bs-dismiss="offcanvas">Tratamientos aplicados</a></li>
+              }
+              @if(checkRoute() == '/preguntas'){
+                <li class="nav-item"><a class="nav-link" (click)="goPreguntas()" data-bs-dismiss="offcanvas" style="color: white; text-decoration: underline;">Preguntas Frecuentes</a></li>
+              }@else {
+                <li class="nav-item"><a class="nav-link" (click)="goPreguntas()" data-bs-dismiss="offcanvas">Preguntas Frecuentes</a></li>
+              }  
+              @if(checkRoute() == '/terapias'){
+                <li class="nav-item"><a class="nav-link" (click)="goTerapias()" data-bs-dismiss="offcanvas" style="color: white; text-decoration: underline;">Terapias</a></li>
+              }@else{
+                <li class="nav-item"><a class="nav-link" (click)="goTerapias()" data-bs-dismiss="offcanvas">Terapias</a></li>
+              }     
+              @if(checkRoute() == '/contacto'){
+                <li class="nav-item"><a class="nav-link" (click)="goContacto()" data-bs-dismiss="offcanvas" style="color: white; text-decoration: underline;">Contacto</a></li>
+              }@else{
+                <li class="nav-item"><a class="nav-link" (click)="goContacto()" data-bs-dismiss="offcanvas">Contacto</a></li>
+              }   
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
   </div>
 </header>
+
+
 
 
 <router-outlet />
