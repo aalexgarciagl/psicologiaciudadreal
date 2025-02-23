@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-tratamientos',
@@ -7,6 +9,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './tratamientos.component.css'
 })
 export class TratamientosComponent implements OnInit {
+
+
+  constructor(private titleService: Title) {
+    this.titleService.setTitle('Tratamientos Psicológicos en Ciudad Real | Especialista en Ansiedad y Bienestar');
+  }
 
 
   ngOnInit(): void {

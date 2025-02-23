@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-incio',
@@ -17,6 +18,9 @@ export class IncioComponent implements OnInit {
     this.telNormal = "656 91 31 16"
   }
 
+  constructor(private titleService: Title) {
+    this.titleService.setTitle('Psicología en Ciudad Real | Servicios de terapia y bienestar emocional');
+  }
   
 
   telFijo: any

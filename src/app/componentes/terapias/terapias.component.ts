@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-terapias',
@@ -8,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class TerapiasComponent {
 
+
+  constructor(private titleService: Title) {
+    this.titleService.setTitle('Terapias Efectivas para Ansiedad, Depresión y Autoestima | Psicóloga en Ciudad Real');
+  }
 }

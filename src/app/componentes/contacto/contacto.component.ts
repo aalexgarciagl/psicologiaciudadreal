@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-contacto',
@@ -12,6 +13,10 @@ export class ContactoComponent implements OnInit {
   telFijo: any
   telNormal: any
   email: any
+
+  constructor(private titleService: Title) {
+    this.titleService.setTitle('Contacto, Ubicación y Cómo Llegar | Psicóloga en Ciudad Real');
+  }
 
   ngOnInit(): void {
     this.email = "psicologiamjgcastro@gmail.com"
