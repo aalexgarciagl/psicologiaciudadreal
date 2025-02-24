@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { WhatsappButtonComponent } from '../../components/whatsapp-button/whatsapp-button.component';
 
 
 @Component({
   selector: 'app-tratamientos',
-  imports: [],
+  imports: [WhatsappButtonComponent],
   templateUrl: './tratamientos.component.html',
   styleUrl: './tratamientos.component.css'
 })

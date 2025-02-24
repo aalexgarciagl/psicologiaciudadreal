@@ -113,6 +113,10 @@ header a{
 }
 
 
+.footer-big b{
+    font-size: 120%;
+}
+
 
 @media (max-width: 1025px) {
     .imagen-footer-ct{
@@ -213,6 +217,8 @@ header a{
     }
     
 }
+
+
 
 
 
