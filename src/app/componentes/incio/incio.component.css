@@ -87,11 +87,23 @@
         width: 100%;
         text-align: center;
     }
+
+    .lista ul{
+        list-style: none;
+        margin-right: 5vh;
+
+    }
     .ampliaex{
-        width: 100%;
+        width: 90%;
         padding: 0;
         margin: 0;
         margin-bottom: 30px;
+    }
+
+    .ampliacont{
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
     .imagen-content{
