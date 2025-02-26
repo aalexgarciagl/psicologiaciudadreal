@@ -10,8 +10,11 @@ import { WhatsappButtonComponent } from '../../components/whatsapp-button/whatsa
 })
 export class TerapiasComponent {
 
-
+  telNormal: any
+  
+  whatsappLink = 'https://wa.me/656913116'
   constructor(private titleService: Title) {
     this.titleService.setTitle('Terapias Efectivas para Ansiedad, Depresión y Autoestima | Psicóloga en Ciudad Real');
+    this.telNormal = "656 913 116"
   }
 }

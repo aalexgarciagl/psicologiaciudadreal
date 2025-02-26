@@ -1,15 +1,30 @@
 <div class="body">
     <div class="imagenheader">
     </div>
+    <div class="separadorimgheader">
+        @if(obtenerTamanio() < 1025){
+            María Jesús García Castro <br> Psicóloga clínica N.º CM-01166
+        }@else {
+            María Jesús García Castro Psicóloga clínica N.º CM-01166
+        }
+    </div>
     <div class="espacialista">
         <div class="lista">
-            <h1 style="color: #3d1646;">Especialista en ansiedad</h1>
+            
             <ul>
+                <li style="color:#7f5092 ;">Especialista en ansiedad</li>
                 <li style="color: #c18bdf;">Rupturas de pareja</li>
-                <li>Problemas de autoestima</li>
-                <li>Orientacion de decisiones cotidianas</li>
-                <li>Inteligencia emocional</li>
                 <li>Trastorno de ansiedad</li>
+                <li>Ataques de pánico</li>
+                <li>Hipocondría</li>
+                <li>Pensamientos obsesivos</li>
+                <li>Tendencia a sobrepensar</li>
+                <li>Falta de confianza</li>
+                <li>Timidez</li>
+                <li>Habilidades sociales</li>
+                <li>Seguridad para saber poner límites</li>
+                <li>Estrés laboral y académico</li>
+                <li>Problemas de autoestima</li>
                 <li style="color: #c18bdf;">Problemas de pareja</li>
             </ul>
         </div>
@@ -18,24 +33,25 @@
                 
             </div>
         </div>
+        
     </div>
 
     <div class="ampliacont">
         <div class="ampliaex">
             <h1>Amplia experiencia en psicoterapia</h1>
-            <b>Informacion sobre técnicas, duracion y temas a tratar en: </b> <br>
-            <b style="color: #c18bdf">{{this.telFijo}}</b> <br>
-            <b style="color: #c18bdf">{{this.telNormal}}</b>
+            <b>Las terapias se apoyan con herramientas útiles, material de apoyo y  lecturas.</b> <br>
+            <b>Para más información puedes llamar o contactar por <a [href]="whatsappLink" style="color: #c18bdf; text-decoration: none;">WhatsApp</a>  en  el teléfono: </b> <br>
+            <b><a [href]="whatsappLink"  style="color: #c18bdf;">{{this.telNormal}}</a></b><br>
+            <b>Opción de realizar la sesión  de psicoterapia de manera online por videollamada de <a [href]="whatsappLink" style="color: #c18bdf; ">WhatsApp</a> o plataforma Skype</b>
         </div>
     </div>
+
+    <app-contacto></app-contacto>
 
     <div class="separador">
         <div class="text1">
             Ronda del Carmen, 2 - 1º A <br>
             Ciudad Real
-        </div>
-        <div class="text2">
-            Colegiado N.º CM-01166
         </div>
     </div>
 </div>

@@ -14,11 +14,12 @@ export class AppComponent implements OnInit {
   telNormal: any
   email: any
   isMenuOpen:any
+  whatsappLink = 'https://wa.me/656913116'
 
   ngOnInit(): void {
     this.email = "psicologiamjgcastro@gmail.com"
     this.telFijo = "926 232 743"
-    this.telNormal = "656 91 31 16"
+    this.telNormal = "656 913 116"
   }
 
   

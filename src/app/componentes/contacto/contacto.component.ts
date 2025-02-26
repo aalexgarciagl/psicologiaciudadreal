@@ -10,7 +10,7 @@ import { WhatsappButtonComponent } from '../../components/whatsapp-button/whatsa
 })
 export class ContactoComponent implements OnInit {
 
-
+  whatsappLink = 'https://wa.me/656913116'
   telFijo: any
   telNormal: any
   email: any
@@ -22,6 +22,10 @@ export class ContactoComponent implements OnInit {
   ngOnInit(): void {
     this.email = "psicologiamjgcastro@gmail.com"
     this.telFijo = "926 232 743"
-    this.telNormal = "656 91 31 16"
+    this.telNormal = "656 913 116"
+  }
+
+  obtenerTamanio(){
+    return window.screen.width
   }
 }

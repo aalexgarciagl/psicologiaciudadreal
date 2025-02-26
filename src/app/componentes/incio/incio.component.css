@@ -16,6 +16,19 @@
     background-repeat: no-repeat;
     background-position: top;
     height: 18.5vh;
+    background-color: #7f5092;
+}
+
+.separadorimgheader{
+    background-color: #7f5092;
+    height: 5vh;
+    color: white;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.lista h1{
+    font-size: 100%;
 }
 
 .imagen-content{
@@ -27,27 +40,44 @@
     padding-top: 30px;
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 5vh;
 }
 
-.ampliaex{
-    padding-top: 5vh;
-    width: 43%;
-    color: #3d1646;
-    font-weight: lighter;
-    text-align: center;
-    margin-left: 32vh;
-    padding-bottom: 30px;
+
+
+.ampliaex h1{
+    color: #7f5092;
+    border-bottom: 3px solid #7f5092;
 }
 
 .separador{
     text-align: center;
     align-items: center;
-    background-color: #c18bdf;
+    background-color: #7f5092;
+    font-weight: lighter;
     display: flex;
+    color: white;
     height: 10vh;
     justify-content: space-evenly;
     font-weight: bold;
     font-size: larger;
+}
+
+.ampliaex{
+    width: 90%;
+    color: black;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 150%;
+    
+}
+
+
+
+.ampliacont{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 
@@ -69,16 +99,41 @@
         font-size: 200%;
     }
 
+    .imagen-content{
+        width: 40vh;
+    }
+
+    .img{
+        height: 50vh;
+    }
+
 }
 
 @media (min-width: 1500px) {
-    .ampliaex{
-        margin-top: -5vh;
-        width: 32%;
+    
+
+}
+
+@media (max-width: 1920px){
+    .separadorimgheader{
+        height: 6vh;
+    }
+
+    .lista{
+        font-size: 150%;
+    }
+
+    .imagen-content{
+        width: 50vh;
+    }
+
+    .img{
+        height: 60vh;
     }
 }
 
 @media (max-width: 1025px) {
+    
     
 
     .lista{
@@ -91,13 +146,19 @@
     .lista ul{
         list-style: none;
         margin-right: 5vh;
+        font-size: 70%;
 
+    }
+
+    .img{
+        height: 40vh;
     }
     .ampliaex{
         width: 90%;
         padding: 0;
         margin: 0;
         margin-bottom: 30px;
+        font-size: 100%;
     }
 
     .ampliacont{
@@ -117,6 +178,7 @@
 
     .separador{
         font-size: 85%;
+        font-weight: lighter;
     }
 
     .imagenheader{
@@ -129,5 +191,13 @@
     .espacialista{
         padding-top: 15px;
         display: block;
+    }
+
+    .separadorimgheader{
+        font-size: 2vh;
+        height: 7vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

@@ -6,13 +6,25 @@
     padding-top: 5vh;
 }
 
+.subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle h4{
+    font-size: 2vh;
+    color: #3d1646;
+    border-bottom: 1px solid #3d1646;
+}
+
 .title h1{
     border-bottom: 3px solid #3d1646;
     width: 90%;
 }
 
 .especialista{
-    padding-top: 5vh;
+    padding-top: 2vh;
     width: 90%;
     padding-bottom: 5vh;
     
@@ -73,7 +85,11 @@ h2{
     }
 
     .separador b{
-        font-size: 100%;
+        font-size: 140%;
+    }
+
+    .separador h2{
+        font-size: 110%;
     }
 
     .separador{

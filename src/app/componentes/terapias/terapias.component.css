@@ -98,7 +98,7 @@ h2{
         font-size: 200%;
     }
     .separador{
-        height: 10vh;
+        height: 12vh;
     }
     
 }
@@ -109,11 +109,11 @@ h2{
     }
 
     .separador b{
-        font-size: 100%;
+        font-size: 140%;
     }
 
     .separador h2{
-        font-size: 120%;
+        font-size: 110%;
     }
 
     .separador{

@@ -11,7 +11,7 @@
 
 
 .header-big{
-    background-color: #c18bdf;
+    background-color: #f3e7f5;
     height: 10vh;
     display: flex;
     justify-content: space-evenly;
@@ -65,7 +65,7 @@ header a{
 }
 
 .offcanvas {
-    background-color: #c18bdf;
+    background-color: #f3e7f5;
     color: #473c4e;
 }
 
@@ -76,8 +76,8 @@ header a{
 }
 
 .offcanvas-body .nav-link:hover {
-    color: #f5f5f5;
-    background-color: #a86ecf;
+    color: #473c4e;
+    background-color: #eaddec;
     border-radius: 5px;
 }
 
@@ -152,7 +152,7 @@ header a{
 
     /* Fondo del menú desplegable */
     .navbar-collapse {
-        background-color: #c18bdf; /* Color de fondo del menú */
+        background-color: #f3e7f5; /* Color de fondo del menú */
         padding: 15px;
         margin-top: 10px;
         border-radius: 10px;
@@ -176,7 +176,7 @@ header a{
     /* Espaciado del navbar-toggler (botón hamburguesa) */
     .navbar-toggler {
         border: none;
-        background-color: white;
+        background-color: #eaddec;
         padding: 8px 12px;
         border-radius: 5px;
     }

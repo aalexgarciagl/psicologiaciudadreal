@@ -78,7 +78,9 @@ h2{
     }
 
     .separador b{
-        font-size: 100%;
+        font-size: 140%;
+        text-decoration: underline;
+        color: #c18bdf;
     }
 
     .separador h2{
