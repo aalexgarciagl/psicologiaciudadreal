@@ -12,11 +12,11 @@
 }
 
 .imagenheader{
-    background-image: url('../../../assets/imagen_header_nombre.png');
+    background-image: url('../../../assets/foto_hoja_psicologaiudadreal.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 35vh;
+    background-position: bottom;
+    height: 45vh;
 }
 
 
@@ -182,7 +182,7 @@
         height: 15vh;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: bottom;
     }
 
     .espacialista{
