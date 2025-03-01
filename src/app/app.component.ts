@@ -22,6 +22,9 @@ export class AppComponent implements OnInit {
     this.telNormal = "656 91 31 16"
   }
 
+  scrollToFooter() {
+    document.getElementById('footer-section')?.scrollIntoView({ behavior: 'smooth' });
+  }
   
   constructor(private router: Router){}
 
