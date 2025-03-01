@@ -16,13 +16,13 @@ export class ContactoComponent implements OnInit {
   email: any
 
   constructor(private titleService: Title) {
-    this.titleService.setTitle('Contacto, Ubicación y Cómo Llegar | Psicóloga en Ciudad Real');
+    this.titleService.setTitle("Psicología en Ciudad Real | Servicios de terapia y bienestar emocional");
   }
 
   ngOnInit(): void {
     this.email = "psicologiamjgcastro@gmail.com"
     this.telFijo = "926 232 743"
-    this.telNormal = "656 913 116"
+    this.telNormal = "656 91 31 16"
   }
 
   obtenerTamanio(){

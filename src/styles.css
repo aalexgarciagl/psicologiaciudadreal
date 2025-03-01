@@ -1,7 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
+@font-face {
+    font-family: 'Cygre';
+    src: url('./assets/Cygre.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 *{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Cygre', sans-serif;
     font-size: 103%;
 }

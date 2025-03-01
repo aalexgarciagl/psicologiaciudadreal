@@ -11,21 +11,13 @@
 }
 
 .imagenheader{
-    background-image: url('../../../assets/img-header.png');
-    background-size: contain;
+    background-image: url('../../../assets/imagen_header_nombre.png');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
-    height: 18.5vh;
-    background-color: #7f5092;
+    background-position: center;
+    height: 35vh;
 }
 
-.separadorimgheader{
-    background-color: #7f5092;
-    height: 5vh;
-    color: white;
-    text-align: center;
-    font-size: 3vh;
-}
 
 .lista h1{
     font-size: 100%;
@@ -182,10 +174,10 @@
     }
 
     .imagenheader{
-        height: 8vh;
+        height: 15vh;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: center;
     }
 
     .espacialista{

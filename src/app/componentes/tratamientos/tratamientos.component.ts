@@ -20,7 +20,7 @@ export class TratamientosComponent implements OnInit {
   ngOnInit(): void {
     this.email = "psicologiamjgcastro@gmail.com"
     this.telFijo = "926 232 743"
-    this.telNormal = "656 913 116"
+    this.telNormal = "656 91 31 16"
   }
 
   whatsappLink = 'https://wa.me/656913116'
