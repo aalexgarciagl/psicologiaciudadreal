@@ -46,7 +46,7 @@
 .separador{
     text-align: center;
     align-items: center;
-    background-color: #7f5092;
+    background-color: #3d1646;
     font-weight: lighter;
     display: flex;
     color: white;
@@ -54,6 +54,10 @@
     justify-content: space-evenly;
     font-weight: bold;
     font-size: larger;
+}
+
+.text1{
+    font-size: 1.2rem;
 }
 
 .ampliaex{

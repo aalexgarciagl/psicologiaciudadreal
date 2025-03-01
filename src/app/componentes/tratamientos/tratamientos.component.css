@@ -30,6 +30,10 @@
     
 }
 
+.especialista ul li{
+    font-size: 1.1rem;
+}
+
 .body{
     display: flex;
     justify-content: center;

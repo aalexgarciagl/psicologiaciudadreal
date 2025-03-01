@@ -86,10 +86,7 @@ header a{
 
 
 
-.contacto a{
-    color: #c18bdf;
-    text-decoration: none;
-}
+
 
 
 .navbar a:hover{
@@ -114,7 +111,7 @@ header a{
 
 
 .footer-big b{
-    font-size: 120%;
+    font-size: 150%;
 }
 
 

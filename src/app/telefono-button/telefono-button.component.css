@@ -1,0 +1,132 @@
+/* Contenedor principal */
+.whatsapp-container {
+    position: fixed;
+    top: 20px; /* Mueve el botón hacia la parte superior */
+    left: -200px; /* El botón empieza fuera de la pantalla (izquierda) */
+    transition: left 0.5s ease; /* La animación que mueve el botón hacia la derecha */
+    z-index: 1000;
+  }
+  
+  /* Cuando el botón debe aparecer (desplazarse a la derecha) */
+  .whatsapp-container.show-button {
+    left: 20px; /* Mueve el botón a la posición visible */
+  }
+  
+  /* Resto de los estilos del botón */
+  .whatsapp-button {
+    width: 100px;
+    height: 40px;
+    background-color: #7f5092;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .whatsapp-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .whatsapp-button img {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .btn-primary {
+    background-color: #7f5092;
+    border-color: white;
+    border-radius: 25px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .joinchat__message {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .joinchat__box__content {
+    background-color: white;
+  }
+  
+  /* Ventana emergente */
+  .chat-popup {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    width: 280px;
+    background-color: #7f5092;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Encabezado */
+  .chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Cuerpo */
+  .chat-body {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .chat-body p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .chat-body a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7f5092;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .chat-body a:hover {
+    background-color: #7f5092;
+  }
+  
+  .chat-body img {
+    width: 20px;
+    margin-right: 5px;
+  }
+  
+  .chat-header {
+    background-color: #7f5092;
+  }
+  
+  @media (min-width: 1025px) {
+    .whatsapp-container {
+      display: none;
+    }
+  }
+  

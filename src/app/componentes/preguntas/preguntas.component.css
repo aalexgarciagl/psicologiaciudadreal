@@ -18,6 +18,12 @@
     
 }
 
+.especialista ul li {
+    font-size: 1.1rem; /* Aumenta el tamaño de la fuente ligeramente */
+}
+
+
+
 .body{
     display: flex;
     justify-content: center;
@@ -37,10 +43,7 @@
     font-size: 4vh;
 }
 
-.separador a{
-    color: #c18bdf;
-    text-decoration: none;
-}
+
 
 
 h2{
@@ -79,7 +82,7 @@ h2{
 
     .separador b{
         font-size: 140%;
-        text-decoration: underline;
+        text-decoration: none;
         color: #c18bdf;
     }
 

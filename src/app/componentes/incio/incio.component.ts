@@ -3,10 +3,11 @@ import { Router } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { WhatsappButtonComponent } from '../../components/whatsapp-button/whatsapp-button.component';
 import { ContactoComponent } from '../contacto/contacto.component';
+import { TelefonoButtonComponent } from '../../telefono-button/telefono-button.component';
 
 @Component({
   selector: 'app-incio',
-  imports: [WhatsappButtonComponent, ContactoComponent],
+  imports: [WhatsappButtonComponent, ContactoComponent, TelefonoButtonComponent],
   templateUrl: './incio.component.html',
   styleUrl: './incio.component.css'
 })
