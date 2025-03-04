@@ -22,6 +22,10 @@ export class AppComponent implements OnInit {
     this.telNormal = "656 91 31 16"
   }
 
+  goPolitica(){
+    this.router.navigate(['/politica-cookies'])
+  }
+
   scrollToFooter() {
     document.getElementById('footer-section')?.scrollIntoView({ behavior: 'smooth' });
   }

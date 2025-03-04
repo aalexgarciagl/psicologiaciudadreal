@@ -46,8 +46,14 @@
     display: flex;
     justify-content: space-evenly;
     background-color: #e5e5e5;
-    height: 20vh;
+    height: 22vh;
     align-items: center;
+}
+
+.footer-big a{
+    text-decoration: none;
+    color: #8e6494;
+    cursor: pointer;
 }
 
 .contenedor-imagen{
