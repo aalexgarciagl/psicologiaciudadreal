@@ -63,7 +63,7 @@
 }
 
 .text1{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .ampliaex{
@@ -181,7 +181,6 @@
 
     .separador{
         height: 15vh;
-        font-size: 85%;
         font-weight: lighter;
     }
 
@@ -190,6 +189,11 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom;
+    }
+
+    .text1{
+        font-size: 90%;
+        width: 90%;
     }
 
     .espacialista{
