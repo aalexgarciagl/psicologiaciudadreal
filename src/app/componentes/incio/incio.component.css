@@ -180,6 +180,7 @@
     }
 
     .separador{
+        height: 15vh;
         font-size: 85%;
         font-weight: lighter;
     }

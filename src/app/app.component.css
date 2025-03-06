@@ -89,6 +89,11 @@ header a{
 
 
 
+.navbar-nav{
+    width: 100%;
+    gap: 40px;
+}
+
 
 
 
