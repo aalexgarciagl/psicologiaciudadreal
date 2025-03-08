@@ -26,6 +26,14 @@ export class AppComponent implements OnInit {
     this.router.navigate(['/politica-cookies'])
   }
 
+  goPrivacidad(){
+    this.router.navigate(['/politica-de-privacidad'])
+  }
+
+  goAviso(){
+    this.router.navigate(['/aviso-legal'])
+  }
+
   scrollToFooter() {
     document.getElementById('footer-section')?.scrollIntoView({ behavior: 'smooth' });
   }

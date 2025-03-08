@@ -1,5 +1,5 @@
 .lista{
-    width: 30%;
+    width: 50%;
 }
 
 
@@ -86,8 +86,8 @@
 
 @media (min-width: 2000px) {
     .lista{
-        width: 30%;
-        font-size: 150%;
+        width: 50%;
+        font-size: 250%;
     }
 
     .lista h1{
@@ -112,10 +112,16 @@
 
 }
 
-@media (min-width: 1500px) {
-    
+@media (min-width: 1300px) and (max-width: 1400px){
+    .separador{
+        height: 15vh;
+    }
 
+    .imagenheader{
+        height: 55vh;
+    }
 }
+
 
 @media (max-width: 1920px){
     .separadorimgheader{
@@ -134,6 +140,17 @@
         height: 60vh;
     }
 }
+
+@media (min-width: 1900px){
+   
+
+    .lista{
+        font-size: 250%;
+    }
+}
+
+
+
 
 @media (max-width: 1025px) {
     

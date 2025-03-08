@@ -5,6 +5,8 @@ import { PreguntasComponent } from './componentes/preguntas/preguntas.component'
 import { TerapiasComponent } from './componentes/terapias/terapias.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { PoliticaCookiesComponent } from './politica-cookies/politica-cookies.component';
+import { AvisoLegalComponent } from './aviso-legal/aviso-legal.component';
+import { PoliticaPrivacidadComponent } from './politica-privacidad/politica-privacidad.component';
 
 export const routes: Routes = [
     { path: '', pathMatch: 'full', redirectTo: '/inicio' },
@@ -13,4 +15,6 @@ export const routes: Routes = [
     { path: 'preguntas', component: PreguntasComponent },
     { path: 'terapias', component: TerapiasComponent },
     { path: 'politica-cookies', component: PoliticaCookiesComponent },
+    { path: 'aviso-legal', component: AvisoLegalComponent },
+    { path: 'politica-de-privacidad', component: PoliticaPrivacidadComponent },
 ];

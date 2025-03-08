@@ -46,9 +46,21 @@
     display: flex;
     justify-content: space-evenly;
     background-color: #e5e5e5;
-    height: 22vh;
+    height: 30vh;
     align-items: center;
 }
+
+.enlaces{
+    width: 25vh;
+    height: 20vh;
+    font-size: 1.5vh;
+}
+
+.enlaces a{
+    font-size: 2vh;
+}
+
+
 
 .footer-big a{
     text-decoration: none;
@@ -89,6 +101,7 @@ header a{
 
 
 
+
 .navbar-nav{
     width: 100%;
     gap: 40px;
@@ -125,6 +138,33 @@ header a{
     font-size: 150%;
 }
 
+@media (min-width: 1900px) {
+    .contacto{
+        width: 40vh;
+
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px){
+
+   
+
+    .contacto{
+        width: 40vh;
+    }
+
+    .navbar-nav li a{
+        font-size: 2.5vh;
+    }
+
+    .navbar-nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+
 
 @media (max-width: 1025px) {
     .imagen-footer-ct{
@@ -155,6 +195,12 @@ header a{
 
     .navbar-nav a {
         font-size: 150%;
+    }
+
+    .enlaces{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 3vh;
     }
     
 
@@ -198,7 +244,15 @@ header a{
         gap: 10px;
     }
 
-    
+    .footer-big{
+        display: block;
+        justify-content: center;
+        height: 42vh;
+    }
+
+    .contacto{
+        margin-bottom: 3vh;
+    }
     
     
 
