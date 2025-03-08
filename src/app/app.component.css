@@ -102,6 +102,8 @@ header a{
 
 
 
+
+
 .navbar-nav{
     width: 100%;
     gap: 40px;
@@ -111,6 +113,13 @@ header a{
 .navbar-nav a{
     font-family: 'Cygre-m';
 }
+
+
+.nav-link{
+    background-color: #eaddec;
+    border-radius: 10px;
+}
+
 
 
 
@@ -140,6 +149,16 @@ header a{
 
 .footer-big b{
     font-size: 150%;
+}
+
+.contacto, .enlaces{
+    font-family: 'Cygre-l';
+    font-weight: 100;
+
+}
+
+.contacto b{
+    font-weight: 100;
 }
 
 @media (min-width: 1900px) {
@@ -251,14 +270,18 @@ header a{
     .footer-big{
         display: block;
         justify-content: center;
-        height: 42vh;
+        height: 45vh;
     }
 
     .contacto{
         margin-bottom: 3vh;
+        padding: 2vh;
     }
-    
-    
+
+    .contacto, .enalces{
+        font-weight: lighter;
+    }
+
 
 }
 
@@ -283,7 +306,6 @@ header a{
     }
     
 }
-
 
 
 

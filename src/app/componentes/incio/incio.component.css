@@ -139,6 +139,10 @@
     .img{
         height: 60vh;
     }
+
+    .imagenheader{
+        height: 60vh;
+    }
 }
 
 @media (min-width: 1900px){
@@ -147,6 +151,13 @@
     .lista{
         font-size: 250%;
     }
+}
+
+@media (min-width: 1100px) and (max-width: 1600px){
+    .separador{
+        height: 15vh;
+    }
+
 }
 
 
@@ -197,7 +208,7 @@
     }
 
     .separador{
-        height: 15vh;
+        height: 15dvh;
         font-weight: lighter;
     }
 
@@ -229,4 +240,9 @@
     .subtitleslista h4{
         font-size: 90%;
     }
+}
+
+
+.text1{
+    font-size: 3vh;
 }

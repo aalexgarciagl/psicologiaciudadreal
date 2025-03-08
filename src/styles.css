@@ -14,6 +14,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Cygre-l';
+    src: url('./assets/Cygre-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 *{
     font-family: 'Cygre', sans-serif;
