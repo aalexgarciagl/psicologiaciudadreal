@@ -163,9 +163,10 @@ header a{
 
 @media (min-width: 1900px) {
     .contacto{
-        width: 40vh;
-
+        width: 45vh;
     }
+
+
 }
 
 @media (min-width: 1300px) and (max-width: 1400px){
