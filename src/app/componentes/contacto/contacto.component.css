@@ -1,5 +1,5 @@
 .title{
-    color: #7f5092;
+    color: #3d1646;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -7,7 +7,7 @@
 }
 
 .title h1{
-    border-bottom: 3px solid #7f5092;
+    border-bottom: 3px solid #3d1646;
     width: 90%;
 }
 
@@ -15,6 +15,12 @@
     width: 30%;
     text-align: center;
 }
+
+
+.donde p{
+    margin-bottom: 15vh;
+}
+
 
 .donde b{
     font-weight: lighter;
@@ -85,6 +91,10 @@ iframe{
         display: flex;
         justify-content: center;
         font-size: 110%;
+    }
+
+    .donde p{
+        margin-bottom: 1.5vh;
     }
     
 }

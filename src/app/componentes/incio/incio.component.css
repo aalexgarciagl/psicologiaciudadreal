@@ -19,6 +19,51 @@
     height: 45vh;
 }
 
+.header {
+    position: relative;
+    background-image: url('../../../assets/foto_hoja_psicologaiudadreal.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 25vh; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: 'Alkalami', serif; /* Aplica la fuente Alkalami */
+}
+
+.header-content {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.header h1 {
+    font-size: 5dvh; /* Ajusta el tamaño de la fuente según tus necesidades */
+    margin: 0;
+    font-family: 'Alkalami', serif; /* Aplica la fuente Alkalami */
+}
+
+.header p {
+    font-size: 3dvh; /* Ajusta el tamaño de la fuente según tus necesidades */
+    margin: 0;
+    font-family: 'Alkalami', serif; /* Aplica la fuente Alkalami */
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25); /* Color negro con 50% de opacidad */
+    z-index: 1;
+}
 
 
 
@@ -43,8 +88,8 @@
 
 
 .ampliaex h1{
-    color: #7f5092;
-    border-bottom: 3px solid #7f5092;
+    color: #3d1646;
+    border-bottom: 3px solid #3d1646;
 }
 
 .separador{
@@ -54,7 +99,7 @@
     font-weight: lighter;
     display: flex;
     color: white;
-    height: 10vh;
+    height: 13vh;
     justify-content: space-evenly;
     font-weight: bold;
     font-size: larger;
@@ -75,6 +120,10 @@
 
 .lista .subtitleslista h4{
     font-size: 5vh;
+}
+
+.lista .subtitleslista h5{
+    font-size: 4.5vh;
 }
 
 .lista h4{
@@ -120,7 +169,7 @@
 
 @media (min-width: 1300px) and (max-width: 1400px){
     .separador{
-        height: 15vh;
+        height: 20vh;
     }
 
     .imagenheader{
@@ -159,7 +208,17 @@
     }
 }
 
-@media (min-width: 1100px) and (max-width: 1600px){
+
+
+
+@media (min-width: 1000px) and (max-width: 1500px){
+    .ampliaex b{
+        font-size: 4.5vh;
+    }
+
+    .ampliaex h1{
+        font-size: 7dvh;
+    }
     .separador{
         height: 15vh;
     }
@@ -245,6 +304,45 @@
     
     .lista h4{
         font-size: 2.5vh;
+    }
+
+    .lista .subtitleslista h5{
+        font-size: 2.75vh;
+    }
+
+    .header-content {
+        width: 90%;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+    
+    .header h1 {
+        font-size: 2.5dvh; /* Ajusta el tamaño de la fuente según tus necesidades */
+        margin: 0;
+        font-family: 'Alkalami', serif; /* Aplica la fuente Alkalami */
+    }
+    
+    .header p {
+        font-size: 2dvh; /* Ajusta el tamaño de la fuente según tus necesidades */
+        margin: 0;
+        font-family: 'Alkalami', serif; /* Aplica la fuente Alkalami */
+    }
+
+    .header {
+        position: relative;
+        background-image: url('../../../assets/foto_hoja_psicologaiudadreal.jpeg');
+        background-size: cover;
+        background-position: top;
+        height: 15vh; /* Ajusta la altura según tus necesidades */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+        font-family: 'Alkalami', serif; /* Aplica la fuente Alkalami */
     }
 }
 
