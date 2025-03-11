@@ -344,6 +344,10 @@
         text-align: center;
         font-family: 'Alkalami', serif; /* Aplica la fuente Alkalami */
     }
+
+    .header-content p{
+        font-size: 2.5vh;
+    }
 }
 
 

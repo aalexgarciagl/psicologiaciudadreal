@@ -13,7 +13,7 @@
 }
 
 .subtitle h4{
-    font-size: 3.5vh;
+    font-size: 3vh;
     color: #3d1646;
     border-bottom: 1px solid #3d1646;
 }
@@ -21,20 +21,26 @@
 .title h1{
     border-bottom: 3px solid #3d1646;
     width: 90%;
+    font-size: 4vh;
 }
 
 
 
 .especialista{
     padding-top: 2vh;
-    width: 90%;
+    width: 85%;
     padding-bottom: 5vh;
     
     
 }
 
+.especialista h2{
+    font-size: 4vh;
+}
+
 .especialista ul li{
-    font-size: 1.5rem;
+    text-align: justify;
+    font-size: 3vh;
     font-family: 'Cygre-m';
 }
 
@@ -88,6 +94,8 @@ h2{
     }
 }
 
+
+
 @media (max-width: 1025px){
     
 
@@ -107,8 +115,17 @@ h2{
         font-size: 1.6rem;
     }
 
+    .title h1{
+        font-size: 3.5vh;
+    }
+
+    .especialista{
+        width: 90%;
+    }
+
     .especialista ul li{
         font-size: 1.1rem;
+        text-align: left;
     }
 
     .subtitle h4{

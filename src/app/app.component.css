@@ -12,18 +12,24 @@
 
 .header-big{
     background-color: #f3e7f5;
-    height: 10vh;
+    height: 15vh;
     display: flex;
     justify-content: space-evenly;
 }
+
+
+
 
 .imagen {
     background-image: url('../assets/logo.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 10vh;
+    width: 30vh;
+    height: 15vh;
 }
+
+
 
 .imagen-footer {
     background-image: url('../assets/logo.png');
@@ -296,6 +302,24 @@ header a{
         font-size: 2dvh;
     }
 
+    .header-big{
+        background-color: #f3e7f5;
+        height: 10vh;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    
+    
+    
+    .imagen {
+        background-image: url('../assets/logo.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 20vh;
+        height: 10vh;
+    }
 
 
 

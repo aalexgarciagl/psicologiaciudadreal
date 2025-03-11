@@ -13,7 +13,7 @@
 }
 
 .subtitle h4{
-    font-size: 3.4vh;
+    font-size: 3vh;
     color: #3d1646;
     border-bottom: 1px solid #3d1646;
 }
@@ -21,11 +21,12 @@
 .title h1{
     border-bottom: 3px solid #3d1646;
     width: 90%;
+    font-size: 4vh;
 }
 
 .especialista{
     padding-top: 5vh;
-    width: 90%;
+    width: 85%;
     padding-bottom: 5vh;
     
 }
@@ -140,6 +141,10 @@ h2{
 
     .accordion-button{
         font-size: 80%;
+    }
+
+    .title h1{
+        font-size: 3.4vh;
     }
 }
 
