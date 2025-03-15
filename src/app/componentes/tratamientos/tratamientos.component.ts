@@ -30,4 +30,6 @@ export class TratamientosComponent implements OnInit {
   telFijo: any
   telNormal: any
   email: any
+
+  
 }
