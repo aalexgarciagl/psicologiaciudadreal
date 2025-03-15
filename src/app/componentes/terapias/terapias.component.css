@@ -47,7 +47,7 @@ body {
 
 .accordion-button {
     text-align: left;
-    font-size: 3vh;
+    font-size: 3.5vh; /* Aumenta el tamaño de fuente de los títulos de los acordeones */
     font-weight: bold;
     background-color: #c18bdf;
     color: white;
@@ -69,6 +69,7 @@ body {
 
 .accordion-body {
     text-align: left;
+    font-size: 3vh; /* Tamaño de fuente del texto del acordeón */
 }
 
 .separador {
@@ -135,11 +136,11 @@ body {
     }
 
     .accordion-button {
-        font-size: 2.5vh;
+        font-size: 1.1rem; /* Ajusta el tamaño de fuente de los títulos de los acordeones para pantallas pequeñas */
     }
 
     .accordion-body {
-        font-size: 2.2vh;
+        font-size: 1.1rem;
     }
 
     .separador {
@@ -178,11 +179,8 @@ body {
     border-bottom: 2px solid #3d1646;
 }
 
-
-
 @media (max-width: 1025px) {
     .title h1 {
         border-bottom: 1px solid #3d1646;
     }
 }
-
