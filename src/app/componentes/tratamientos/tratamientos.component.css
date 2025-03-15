@@ -18,6 +18,15 @@
     border-bottom: 1px solid #3d1646;
 }
 
+.especialista h2{
+    margin-bottom: 1.5vh;
+}
+
+ul li{
+    margin-bottom: 2vh;
+    text-align: justify;
+}
+
 .title h1{
     border-bottom: 3px solid #3d1646;
     width: 90%;
@@ -41,7 +50,7 @@
 .especialista ul li{
     text-align: justify;
     font-size: 3vh;
-    font-family: 'Cygre-m';
+    font-family: 'Cygre';
 }
 
 .body{
@@ -124,13 +133,31 @@ h2{
     }
 
     .especialista ul li{
-        font-size: 1.1rem;
+        margin-left: -7.5vw;
+        font-size: 1.2rem;
         text-align: left;
+        font-family: 'Cygre-m';
+    }
+
+    .especialista ul li b{
+        font-size: 1.2rem;
+        text-align: left;
+        font-family: 'Cygre-m';
     }
 
     .subtitle h4{
         font-size: 2.5vh;
         color: #3d1646;
         border-bottom: 1px solid #3d1646;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1400px){
+    .text1 h2{
+        font-size: 4.5vh;
+    }
+
+    .text1 a{
+        font-size: 4.5vh;
     }
 }
