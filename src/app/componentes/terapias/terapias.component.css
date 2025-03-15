@@ -14,7 +14,7 @@ body {
 .title h1 {
     font-size: 4vh;
     border-bottom: 2px solid #3d1646;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -26,7 +26,6 @@ body {
 
 .subtitle h4 {
     font-size: 3vh;
-    border-bottom: 1px solid #3d1646;
     display: inline-block;
 }
 
@@ -75,10 +74,12 @@ body {
 .separador {
     text-align: center;
     background-color: #3d1646;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: white;
+    padding: 5vh 0;
+}
+
+.separador h2 {
+    font-size: 4vh;
 }
 
 .separador b {
@@ -88,98 +89,80 @@ body {
 
 @media (min-width: 2000px) {
     .title h1 {
-        width: 100%;
+        width: 70%;
     }
 
     .especialista {
-        width: 100%;
+        width: 70%;
     }
 
     .separador b {
-        font-size: 250%;
-    }
-
-    .separador {
-        height: 10vh;
-    }
-
-    .accordion-button {
-        font-size: 100%;
+        font-size: 2.5rem;
     }
 }
 
 @media (min-width: 1500px) {
     .title h1 {
-        width: 100%;
+        width: 80%;
     }
 
     .especialista {
-        width: 100%;
-        font-size: 120%;
+        width: 80%;
+        font-size: 1.2rem;
     }
 
     .especialista h2 {
-        font-size: 200%;
-    }
-
-    .separador {
-        height: 12vh;
+        font-size: 2rem;
     }
 }
 
 @media (max-width: 1025px) {
-    .subtitle h4 {
-        font-size: 2.5vh;
-        color: #3d1646;
-    }
-
-    .especialista li {
-        font-size: 80%;
-    }
-
-    .separador b {
-        font-size: 140%;
-    }
-
-    .separador h2 {
-        font-size: 110%;
-    }
-
-    .separador {
-        height: 15vh;
-    }
-
-    .accordion-button {
-        font-size: 80%;
-    }
-
     .title h1 {
-        font-size: 3.4vh;
-    }
-
-    .subtitle h4 {
-        font-size: 2.3vh;
-        color: #3d1646;
+        font-size: 2.5vh;
         border-bottom: 1px solid #3d1646;
     }
 
-    .title h1 {
-        width: 100%;
-        font-size: 2.8vh;
+    .subtitle h4 {
+        font-size: 2vh;
+    }
+
+    .especialista {
+        width: 90%;
+    }
+
+    .especialista h2 {
+        font-size: 3vh;
+    }
+
+    .accordion-button {
+        font-size: 2.5vh;
+    }
+
+    .accordion-body {
+        font-size: 2.2vh;
+    }
+
+    .separador {
+        padding: 3vh 0;
+    }
+
+    .separador h2 {
+        font-size: 2.5vh;
+    }
+
+    .separador b {
+        font-size: 1.4rem;
     }
 }
 
 @media (min-width: 1000px) and (max-width: 1400px) {
-    .text1 h2 {
-        font-size: 4.5vh;
-    }
-
-    .text1 a {
-        font-size: 4.5vh;
-    }
-
     .accordion-body {
         font-size: 3.5vh;
+    }
+
+    .separador h2,
+    .separador b {
+        font-size: 4.5vh;
     }
 
     .title h1 {
@@ -195,9 +178,7 @@ body {
     border-bottom: 2px solid #3d1646;
 }
 
-.subtitle h4 {
-    border-bottom: 1px solid #3d1646;
-}
+
 
 @media (max-width: 1025px) {
     .title h1 {
@@ -205,6 +186,3 @@ body {
     }
 }
 
-.accordion-body {
-    text-align: left;
-}
