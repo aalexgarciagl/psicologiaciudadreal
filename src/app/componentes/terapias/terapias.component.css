@@ -1,63 +1,50 @@
-.title{
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
     color: #3d1646;
     text-align: center;
-    display: flex;
-    justify-content: center;
     padding-top: 5vh;
 }
 
-.subtitle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.subtitle h4{
-    font-size: 3vh;
-    color: #3d1646;
-}
-
-.title h1{
+.title h1 {
+    font-size: 4vh;
+    border-bottom: 2px solid #3d1646;
     width: 90%;
-    font-size: 4vh;
+    margin: 0 auto;
 }
 
-.especialista{
-    padding-top: 5vh;
-    width: 85%;
-    padding-bottom: 5vh;
-    
-}
-
-.body{
-    display: flex;
-    justify-content: center;
-}
-
-.separador{
+.subtitle {
     text-align: center;
-    background-color: #3d1646;
-    height: 20vh;
+    color: #3d1646;
+    margin-top: 2vh;
+}
+
+.subtitle h4 {
+    font-size: 3vh;
+    border-bottom: 1px solid #3d1646;
+    display: inline-block;
+}
+
+.body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 5vh 0;
 }
 
-.separador b{
-    font-weight: lighter;
+.especialista {
+    width: 85%;
+}
+
+.especialista h2 {
     font-size: 4vh;
-}
-
-
-h2{
     color: #3d1646;
+    margin-bottom: 1.5vh;
 }
-
-
-
-
-
 
 .accordion-button {
     text-align: left;
@@ -66,139 +53,158 @@ h2{
     background-color: #c18bdf;
     color: white;
 }
+
 .accordion-button i {
     margin-right: 10px;
     transition: transform 0.3s ease;
 }
+
 .accordion-button[aria-expanded="true"] i {
     transform: rotate(90deg); /* Rota la flecha al abrir */
 }
 
-.accordion{
+.accordion {
     margin-top: -2vh;
     margin-bottom: 5vh;
 }
 
-@media (min-width: 2000px){
-    .title h1{
+.accordion-body {
+    text-align: left;
+}
+
+.separador {
+    text-align: center;
+    background-color: #3d1646;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separador b {
+    font-weight: lighter;
+    font-size: 4vh;
+}
+
+@media (min-width: 2000px) {
+    .title h1 {
         width: 100%;
     }
-    .especialista{
+
+    .especialista {
         width: 100%;
     }
-    .separador b{
+
+    .separador b {
         font-size: 250%;
     }
 
-    .separador{
+    .separador {
         height: 10vh;
     }
-    .accordion-button{
+
+    .accordion-button {
         font-size: 100%;
     }
 }
 
-@media (min-width: 1500px){
-    .title h1{
+@media (min-width: 1500px) {
+    .title h1 {
         width: 100%;
     }
-    .especialista{
+
+    .especialista {
         width: 100%;
         font-size: 120%;
     }
-    .especialista h2{
+
+    .especialista h2 {
         font-size: 200%;
     }
-    .separador{
+
+    .separador {
         height: 12vh;
     }
-    
 }
 
-@media (max-width: 1025px){
-
-    .subtitle h4{
+@media (max-width: 1025px) {
+    .subtitle h4 {
         font-size: 2.5vh;
         color: #3d1646;
     }
-    .especialista li{
+
+    .especialista li {
         font-size: 80%;
     }
 
-    .separador b{
+    .separador b {
         font-size: 140%;
     }
 
-    .separador h2{
+    .separador h2 {
         font-size: 110%;
     }
 
-    .separador{
+    .separador {
         height: 15vh;
     }
 
-    .accordion-button{
+    .accordion-button {
         font-size: 80%;
     }
 
-    .title h1{
+    .title h1 {
         font-size: 3.4vh;
     }
 
-    
-
-    .subtitle h4{
+    .subtitle h4 {
         font-size: 2.3vh;
         color: #3d1646;
         border-bottom: 1px solid #3d1646;
     }
 
-    .title h1{
+    .title h1 {
         width: 100%;
         font-size: 2.8vh;
     }
 }
 
-
-@media (min-width: 1000px) and (max-width: 1400px){
-    .text1 h2{
+@media (min-width: 1000px) and (max-width: 1400px) {
+    .text1 h2 {
         font-size: 4.5vh;
     }
 
-    .text1 a{
+    .text1 a {
         font-size: 4.5vh;
     }
 
-    .accordion-body{
+    .accordion-body {
         font-size: 3.5vh;
     }
 
-    .title h1{
+    .title h1 {
         font-size: 4.5vh;
     }
 
-    .subtitle h4{
+    .subtitle h4 {
         font-size: 4vh;
-    } 
+    }
 }
 
-
-.accordion-body{
-    text-align: justify;
-}
-
-
-
-.title h1{
+.title h1 {
     border-bottom: 2px solid #3d1646;
 }
 
-.subtitle h4{
+.subtitle h4 {
     border-bottom: 1px solid #3d1646;
 }
 
-@media (max-width: 1025px){
-    .title h1{
+@media (max-width: 1025px) {
+    .title h1 {
         border-bottom: 1px solid #3d1646;
     }
+}
+
+.accordion-body {
+    text-align: left;
 }

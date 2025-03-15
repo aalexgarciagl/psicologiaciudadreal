@@ -36,7 +36,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 15vh;
+    height: 20vh;
 }
 
 .contacto{
@@ -117,7 +117,7 @@ header a{
 
 
 .navbar-nav a{
-    font-family: 'Cygre-m';
+    font-family: 'Cygre';
 }
 
 

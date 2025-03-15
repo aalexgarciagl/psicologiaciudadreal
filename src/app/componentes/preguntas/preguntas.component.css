@@ -1,226 +1,173 @@
-.title{
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
     color: #3d1646;
     text-align: center;
-    display: flex;
-    justify-content: center;
     padding-top: 5vh;
 }
 
-.subtitle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li{
-    margin-bottom: 2vh;
-    text-align: justify;
-}
-
-.subtitle h4{
-    font-size: 3vh;
-    color: #3d1646;
-}
-
-.title h1{
+.title h1 {
+    font-size: 4vh;
+    border-bottom: 2px solid #3d1646;
     width: 90%;
-    font-size: 4vh;
+    margin: 0 auto;
 }
 
-.especialista{
-    padding-top: 5vh;
-    width: 85%;
-    padding-bottom: 5vh;
-    
-}
-
-.especialista h2{
-    font-size: 4vh;
-}
-
-.especialista ul li{
-    text-align: justify;
-    font-size: 3vh;
-    font-family: 'Cygre';
-}
-
-
-
-.body{
-    display: flex;
-    justify-content: center;
-}
-
-.separador{
+.subtitle {
     text-align: center;
-    background-color: #3d1646;
-    height: 20vh;
+    color: #3d1646;
+    margin-top: 2vh;
+}
+
+.subtitle h4 {
+    font-size: 3vh;
+    border-bottom: 1px solid #3d1646;
+    display: inline-block;
+}
+
+.body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 5vh 0;
 }
 
-.separador b{
-    font-weight: lighter;
+.especialista {
+    width: 85%;
+}
+
+.especialista h2 {
     font-size: 4vh;
-}
-
-
-
-
-h2{
     color: #3d1646;
-}
-
-@media (min-width: 2000px){
-    .title h1{
-        width: 70%;
-    }
-    .especialista{
-        width: 70%;
-    }
-    .separador b{
-        font-size: 250%;
-    }
-}
-
-@media (min-width: 1500px){
-    .title h1{
-        width: 80%;
-    }
-    .especialista{
-        width: 80%;
-        font-size: 120%;
-    }
-    .especialista h2{
-        font-size: 200%;
-    }
-}
-
-@media (max-width: 1025px){
-
-    .subtitle h4{
-        font-size: 2.4vh;
-        color: #3d1646;
-    }
-    .especialista li{
-        font-size: 80%;
-    }
-
-    .separador b{
-        font-size: 140%;
-        text-decoration: none;
-        color: #c18bdf;
-    }
-
-    .separador h2{
-        font-size: 120%;
-    }
-
-    .separador{
-        height: 15vh;
-    }
-
-    .especialista ul li {
-        font-family: 'Cygre-m';
-    }
-
-    .title h1{
-        font-size: 3.5vh;
-    }
-
-    .especialista{
-        width: 90%;
-    }
-
-    .especialista h2{
-        font-size: 3vh;
-    }
-
-    .especialista ul li{
-        font-size: 1.1rem;
-        text-align: left;
-    }
-
-    .especialista ul li{
-        margin-left: -7.5vw;
-        font-size: 1.2rem;
-        text-align: left;
-        font-family: 'Cygre-m';
-    }
-
-    .especialista ul li b{
-        font-size: 1.2rem;
-        text-align: left;
-        font-family: 'Cygre-m';
-    }
-
-    .text1 h2{
-        font-size: 2.5vh;
-    }
-    .text1 p{
-        font-size: 3vh;
-    }
-    .subtitle h4{
-        font-size: 2.3vh;
-        color: #3d1646;
-    }
-
-    .title h1{
-        font-size: 2.8vh;
-    }
-}
-
-@media (min-width: 1000px) and (max-width: 1400px){
-    .especialista ul li{
-        font-size: 3.5vh;
-    }
-    .text1 h2{
-        font-size: 4.5vh;
-    }
-
-    .text1 a{
-        font-size: 4.5vh;
-    }
-
-    .title h1{
-        font-size: 4.5vh;
-    }
-
-    .subtitle h4{
-        font-size: 4vh;
-    } 
+    margin-bottom: 1.5vh;
 }
 
 .especialista ul {
     list-style: none;
-    text-align: justify;
+    padding: 0;
 }
 
 .especialista ul li {
-    margin-bottom: 10px;
+    margin-bottom: 2vh;
     text-align: justify;
+    font-size: 3vh;
 }
 
-.especialista ul li::before {
+.especialista ul li:first-child {
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+
+.especialista ul li:not(:first-child)::before {
+    content: "- ";
     color: #3d1646;
     font-weight: bold;
-    display: inline-block;
 }
 
-
-
-.title h1{
-    border-bottom: 2px solid #3d1646;
+.separador {
+    text-align: center;
+    background-color: #3d1646;
+    color: white;
+    padding: 5vh 0;
 }
 
-.subtitle h4{
-    border-bottom: 1px solid #3d1646;
+.separador h2 {
+    font-size: 4vh;
 }
 
-@media (max-width: 1025px){
-    .title h1{
-        border-bottom: 1px solid #3d1646;
+.separador b {
+    font-weight: lighter;
+    font-size: 4vh;
+}
+
+@media (min-width: 2000px) {
+    .title h1 {
+        width: 70%;
+    }
+
+    .especialista {
+        width: 70%;
+    }
+
+    .separador b {
+        font-size: 2.5rem;
     }
 }
 
+@media (min-width: 1500px) {
+    .title h1 {
+        width: 80%;
+    }
+
+    .especialista {
+        width: 80%;
+        font-size: 1.2rem;
+    }
+
+    .especialista h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1025px) {
+    .title h1 {
+        font-size: 3.5vh;
+        border-bottom: 1px solid #3d1646;
+    }
+
+    .subtitle h4 {
+        font-size: 2.4vh;
+    }
+
+    .especialista {
+        width: 90%;
+    }
+
+    .especialista h2 {
+        font-size: 3vh;
+    }
+
+    .especialista ul li {
+        font-size: 1.1rem;
+        text-align: left;
+    }
+
+    .especialista ul li:first-child {
+        font-size: 1.3rem;
+    }
+
+    .separador {
+        padding: 3vh 0;
+    }
+
+    .separador h2 {
+        font-size: 2.5vh;
+    }
+
+    .separador b {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+    .especialista ul li {
+        font-size: 3.5vh;
+    }
+
+    .separador h2,
+    .separador b {
+        font-size: 4.5vh;
+    }
+
+    .title h1 {
+        font-size: 4.5vh;
+    }
+
+    .subtitle h4 {
+        font-size: 4vh;
+    }
+}
