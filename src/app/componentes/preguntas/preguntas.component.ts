@@ -23,4 +23,8 @@ export class PreguntasComponent implements OnInit {
   }
   telNormal:any
   email:any
+
+  checkSize(){
+    return window.screen.width
+  }
 }

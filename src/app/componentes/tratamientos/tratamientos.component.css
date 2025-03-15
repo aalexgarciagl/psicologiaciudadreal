@@ -15,7 +15,6 @@
 .subtitle h4{
     font-size: 3vh;
     color: #3d1646;
-    border-bottom: 1px solid #3d1646;
 }
 
 .especialista h2{
@@ -28,7 +27,6 @@ ul li{
 }
 
 .title h1{
-    border-bottom: 3px solid #3d1646;
     width: 90%;
     font-size: 4vh;
 }
@@ -146,13 +144,20 @@ h2{
     }
 
     .subtitle h4{
-        font-size: 2.5vh;
+        font-size: 2.3vh;
         color: #3d1646;
-        border-bottom: 1px solid #3d1646;
+    }
+
+    .title h1{
+        font-size: 2.8vh;
     }
 }
 
 @media (min-width: 1000px) and (max-width: 1400px){
+
+    .especialista ul li{
+        font-size: 3.5vh;
+    }
     .text1 h2{
         font-size: 4.5vh;
     }
@@ -160,4 +165,41 @@ h2{
     .text1 a{
         font-size: 4.5vh;
     }
+
+    .title h1{
+        font-size: 4.5vh;
+    }
+
+    .subtitle h4{
+        font-size: 4vh;
+    } 
+}
+
+@media (min-width: 500px) and (max-width: 1300px){
+
+    
+
+    .title h1{
+        font-size: 2.5vh;
+    }
+
+    .subtitle h4{
+        font-size: 2vh;
+    } 
+}
+
+.especialista ul {
+    list-style: none;
+    text-align: justify;
+}
+
+.especialista ul li {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.especialista ul li::before {
+    color: #3d1646;
+    font-weight: bold;
+    display: inline-block;
 }
