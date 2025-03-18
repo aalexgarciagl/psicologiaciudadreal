@@ -46,7 +46,6 @@ body {
 }
 
 .especialista ul {
-    list-style: none;
     padding: 0;
 }
 
@@ -62,7 +61,6 @@ body {
 }
 
 .especialista ul li:not(:first-child)::before {
-    content: "- ";
     color: #3d1646;
     font-weight: bold;
 }
@@ -133,6 +131,7 @@ body {
     .especialista ul li {
         font-size: 1.1rem;
         text-align: left;
+        margin-left: 10px;
     }
 
     .especialista ul li:first-child {

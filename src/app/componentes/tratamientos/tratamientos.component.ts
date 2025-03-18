@@ -14,7 +14,8 @@ export class TratamientosComponent implements OnInit {
 
 
   constructor(private titleService: Title) {
-    this.titleService.setTitle('Tratamientos Psicológicos en Ciudad Real | Especialista en Ansiedad y Bienestar');
+    //this.titleService.setTitle('Tratamientos Psicológicos en Ciudad Real | Especialista en Ansiedad y Bienestar');
+    this.titleService.setTitle('Tratamientos Aplicados');
   }
 
 

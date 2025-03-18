@@ -19,7 +19,8 @@ export class PreguntasComponent implements OnInit {
 
   whatsappLink = 'https://wa.me/656913116'
   constructor(private titleService: Title) {
-    this.titleService.setTitle('¿Cómo Funciona la Terapia? Preguntas Frecuentes | Psicóloga en Ciudad Real');
+    //this.titleService.setTitle('¿Cómo Funciona la Terapia? Preguntas Frecuentes | Psicóloga en Ciudad Real');
+    this.titleService.setTitle('Preguntas Frecuentes');
   }
   telNormal:any
   email:any
