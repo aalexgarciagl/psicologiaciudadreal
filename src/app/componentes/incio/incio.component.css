@@ -100,7 +100,7 @@
     font-weight: lighter;
     display: flex;
     color: white;
-    height: 13vh;
+    height: 15vh;
     justify-content: space-evenly;
     font-weight: bold;
     font-size: larger;
@@ -218,10 +218,10 @@
     }
 
     .ampliaex h1{
-        font-size: 7dvh;
+        font-size: 5vh;
     }
     .separador{
-        height: 15vh;
+        height: 20vh;
     }
 
 }

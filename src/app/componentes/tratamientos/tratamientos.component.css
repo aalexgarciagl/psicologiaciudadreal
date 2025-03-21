@@ -40,7 +40,7 @@ body {
 }
 
 .especialista h2 {
-    font-size: 4vh;
+    font-size: 4.5vh;
     color: #3d1646;
     margin-bottom: 1.5vh;
 }
@@ -106,7 +106,7 @@ body {
     }
 
     .especialista h2 {
-        font-size: 2rem;
+        font-size: 2.25rem;
     }
 }
 
@@ -125,7 +125,7 @@ body {
     }
 
     .especialista h2 {
-        font-size: 3vh;
+        font-size: 3.5vh;
     }
 
     .especialista ul li {
